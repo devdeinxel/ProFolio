@@ -1,0 +1,11 @@
+# ProFolio - Personal Portfolio Template
+
+How to Use:
+1. Open index.html in your browser to view the site.
+2. Replace assets/profile.jpg with your own photo.
+3. Update project images inside /assets.
+4. Edit text (name, skills, services) in index.html.
+5. Customize colors & fonts in style.css.
+6. For live demo, upload to GitHub Pages, Netlify, or Vercel.
+
+Enjoy building!

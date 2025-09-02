@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProFolio - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>John Doe</span></h1>
+      <p>A passionate Web Designer & Developer</p>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="#" class="btn btn-outline">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="assets/profile.jpg" alt="Profile Picture">
+      <div class="about-text">
+        <p>Hello! I'm John, a creative web designer and developer with 2+ years of experience. I build modern and responsive websites to help businesses grow online.</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, WordPress</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="assets/project1.jpg" alt="Project 1">
+        <h3>Business Website</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="assets/project2.jpg" alt="Project 2">
+        <h3>Portfolio Site</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="assets/project3.jpg" alt="Project 3">
+        <h3>E-commerce Store</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="card"><i class="fa fa-paint-brush"></i><h3>Web Design</h3></div>
+      <div class="card"><i class="fa fa-code"></i><h3>Development</h3></div>
+      <div class="card"><i class="fa fa-search"></i><h3>SEO Optimization</h3></div>
+      <div class="card"><i class="fa fa-wordpress"></i><h3>WordPress</h3></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 John Doe. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
